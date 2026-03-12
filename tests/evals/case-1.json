@@ -1,0 +1,9 @@
+{
+  "id": "case-1",
+  "title": "Data Scientist workflow review",
+  "scenario": "Review a realistic data scientist request with incomplete evidence.",
+  "expectedBehaviors": [
+    "State missing evidence clearly.",
+    "Respect the manual boundary."
+  ]
+}

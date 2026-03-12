@@ -1,0 +1,16 @@
+{
+  "name": "data-scientist",
+  "description": "Digital profile for a data scientist with 5 captured skills. Strongest signals: Feature Importance Validation, Bias Risk Decomposition, Objective Metric Alignment, Data Provenance Auditing. Coverage: 5 covered and 1 partial dimensions. Coverage is broad enough to move to blueprinting.",
+  "version": "1.0.0",
+  "agents": [
+    "./agents/"
+  ],
+  "mcpServers": {
+    "experiment-metadata-reader": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/mcp/experiment-metadata-reader/index.ts"
+    },
+    "provenance-tracer": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/mcp/provenance-tracer/index.ts"
+    }
+  }
+}
